@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/*background image*/
+body{
+    border: 0;
+    margin: 0;
+}
+.background-image{
+    background-image: url(/img/d3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 95%;
+}
+.navbar ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    opacity: .8;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    background-color: black;
+    margin-right: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display:block;
+}
+.socials a{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    padding-top: 25px;
+    
+}
